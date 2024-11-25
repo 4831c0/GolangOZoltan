@@ -1,9 +1,3 @@
-const h = window.screen.height;
-
-for (let i = 0; i < (h/20); i++) {
-    document.getElementById('map').innerText += '\n';
-}
-
 var map = L.map('map');
 const zoltanIcon = L.icon({
     iconUrl: '/icons/zoltan_icon.png',
@@ -18,6 +12,12 @@ const zoltanIcon = L.icon({
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
+
+const API = {
+    getLocation: () => {
+        return "46.9607673 18.9196372";
+    }
+}
 
 function updateLocation() {
     const [ lat, long ] = API.getLocation().split(" ").map(v => parseFloat(v));
