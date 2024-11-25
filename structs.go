@@ -2,13 +2,13 @@ package main
 
 var zoltanRegistry = map[string]Zoltan{
 	"Interspározoltán": {"Interspározoltán", "/res/intersparozoltan.jpeg", []Location{
-		{46.9610563, 18.9169661},
+		{46.9607673, 18.9196372},
 	}},
 	"Iskolázoltán": {"Iskolázoltán", "/res/iskolazoltan.jpeg", []Location{
 		{46.9594517, 18.9342486},
 	}},
 	"Tescozoltán": {"Tescozoltán", "/res/tescozoltan.jpeg", []Location{
-		{46.9778892, 18.9197099},
+		{46.9772934, 18.9242739},
 	}},
 	"Kukázoltán": {"Kukázoltán", "/res/kukazoltan.jpeg", []Location{
 		{46.9583949, 18.9345873},
