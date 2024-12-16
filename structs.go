@@ -22,9 +22,6 @@ var zoltanRegistry = map[string]Zoltan{
 	"Vonatozoltán": {"Vonatozoltán", "/res/vonatozoltan.jpeg", []Location{
 		{46.9606042, 18.9134288},
 	}},
-	"Túrázoltán": {"Túrázoltán", "/res/turazoltan.jpeg", []Location{
-		{0, 0},
-	}},
 }
 
 type User struct {
